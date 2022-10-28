@@ -35,7 +35,7 @@ body {
 	height: 100%;	height: 100%;
 	/* font-family: "Cairo", sans-serif; */
 		font-family: "UTMBryantLGBold",sans-serif;
-		/* font-family: brandonText; */
+		/* font-family: Brandon; */
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -52,7 +52,6 @@ h6 {
 		/* font-family: 'Courier New', Courier, monospace; */
 		/* font-family: "Cairo", sans-serif; */
 		font-family: "UTMBryantLGBold",sans-serif;
-
 }
 
 h1 {
@@ -83,8 +82,6 @@ p {
 	font-size: 16px;
 	/* font-family: "Cairo", sans-serif; */
 	font-family: "UTMBryantLGBold",sans-serif;
-
-	/* font-family: 'Courier New', Courier, monospace; */
 
 	color: #6f6f6f;
 	font-weight: 400;
@@ -2928,6 +2925,21 @@ ol {
 	letter-spacing: 2px;
 }
 
+/* ------------------------------back to top --------------------------------*/
+.back-to-top {
+	position: fixed;
+	display: none;
+	right: 30px;
+	bottom: 30px;
+	z-index: 11;
+  }
+.btn-to-top{
+background-color: #ff96b7;
+color: #fff;
+padding: 10px 20px;
+border-radius: 50%;
+font-size: 24px;
+}
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1200px) {
