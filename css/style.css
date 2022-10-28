@@ -215,6 +215,23 @@ ol {
 	animation: loader 0.8s linear infinite;
 	-webkit-animation: loader 0.8s linear infinite;
 }
+.product__details__tab__desc i{
+    color: #EDBB0E;
+}
+.product__details__text p {
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.product__details__text h3 {
+	color: #252525;
+	font-weight: 700;
+	margin-bottom: 16px;
+	font-size: 50px;
+}
+.hero__search {
+	width: 1150px;
+	
+}
 
 @keyframes loader {
 	0% {
