@@ -163,6 +163,15 @@ ol {
 .text-white a {
 	color: #fff;
 }
+/*Read more*/
+function myFunction() {
+    var x = document.getElementById('bld1');
+    if (x.style.display === 'block') {
+        x.style.display = 'none';
+    } else {
+        x.style.display = 'block';
+    }
+}
 
 /* buttons */
 
