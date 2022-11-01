@@ -163,16 +163,6 @@ ol {
 .text-white a {
 	color: #fff;
 }
-/*Read more*/
-function myFunction() {
-    var x = document.getElementById('bld1');
-    if (x.style.display === 'block') {
-        x.style.display = 'none';
-    } else {
-        x.style.display = 'block';
-    }
-}
-
 /* buttons */
 
 .primary-btn {
@@ -2307,6 +2297,15 @@ function myFunction() {
   Blog
 -----------------------*/
 
+/*---------------------
+  Blog details
+-----------------------*/
+#readmore{
+	opacity: 0.4;
+}
+#bld1{
+	display: none;
+} 
 .blog__item {
 	margin-bottom: 60px;
 }
