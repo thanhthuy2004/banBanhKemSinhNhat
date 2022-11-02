@@ -570,7 +570,9 @@ ol {
 	color: #252525;
 	font-weight: 700;
 }
-
+.container-fluid img{
+	filter: brightness(70%);
+}
 .humberger__menu__wrapper {
 	display: none;
 }
