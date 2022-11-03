@@ -6,7 +6,15 @@
     Version: 1.0
     Created: Colorlib
 ---------------------------------------------------------  */
-
+/*Read more*/
+function myFunction() {
+    var x = document.getElementById('bld1');
+    if (x.style.display === 'block') {
+        x.style.display = 'none';
+    } else {
+        x.style.display = 'block';
+    }
+}
 'use strict';
 
 (function ($) {
