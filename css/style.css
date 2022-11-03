@@ -183,6 +183,13 @@ ol {
 	background: #ff96b7;
 	border: none;
 }
+/* button in slide */
+.nextBtn{
+color: #fff;
+background-color: #ff96b7;
+border-radius: 5px;
+line-height: 32px;
+}
 
 /* Preloder */
 
