@@ -132,6 +132,11 @@ ol {
 	margin-bottom: 50px;
 	text-align: center;
 }
+.blog__details__text h1{
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
 
 .section-title h2 {
 	color: #1c1c1c;
@@ -2352,7 +2357,7 @@ ol {
 }
 
 .blog__item__pic img {
-	min-width: 100%;
+	width: 100%;
 }
 
 .blog__item__text {
@@ -2817,8 +2822,7 @@ ol {
 	float: right;
 }
 #freecake{
-	color: white;
-	background-color: #ff96b7;
+	color:  #ff96b7;
 	font-weight: bold;
 	width: 250px;
 	font-style: oblique;
@@ -3257,6 +3261,9 @@ font-size: 24px;
 	.over_hid {
 		overflow: hidden;
 	}
+	.slogun_slide{
+		display: none;
+	}
 }
 
 /* Wide Mobile = 480px */
@@ -3520,6 +3527,10 @@ font-size: 24px;
 	.over_hid {
 		overflow: hidden;
 	}
+	.slogun_slide{
+		display: none;
+	}
+
 }
 
 /* Small Device = 320px */
@@ -3569,4 +3580,8 @@ font-size: 24px;
 	.blog__details__hero__text h2 {
 		font-size: 24px;
 	}
+	.slogun_slide{
+		display: none;
+	}
+	
 }
