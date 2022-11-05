@@ -132,6 +132,11 @@ ol {
 	margin-bottom: 50px;
 	text-align: center;
 }
+.blog__details__text h1{
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
 
 .section-title h2 {
 	color: #1c1c1c;
@@ -2346,7 +2351,7 @@ ol {
 }
 
 .blog__item__pic img {
-	min-width: 100%;
+	width: 100%;
 }
 
 .blog__item__text {
