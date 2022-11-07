@@ -1003,7 +1003,9 @@ ol {
 	color: #252525;
 	font-weight: 700;
 }
-
+.distance{
+	margin-bottom: 100px;
+}
 /*---------------------
   Latest Product
 -----------------------*/
@@ -2823,7 +2825,7 @@ ol {
 .footer__copyright__payment {
 	float: right;
 }
-#freecake{
+.freecake{
 	font-weight: bold;
 	width: 250px;
 	font-style: oblique;
