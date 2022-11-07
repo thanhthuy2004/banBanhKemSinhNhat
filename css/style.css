@@ -2690,6 +2690,15 @@ ol {
 .blog__details__widget .blog__details__social a:last-child {
 	margin-right: 0;
 }
+.image-blog{
+	width: 500px;
+	height: 400px;
+	margin-left: 120px;
+	border: 10px double #ff96b7;
+}
+.cochu-blog{
+	font-size: 24px;
+}
 
 /*---------------------
   Footer
