@@ -3265,6 +3265,9 @@ font-size: 24px;
 	.slogun_slide{
 		display: none;
 	}
+	.text_search{
+		display: none;
+	}
 }
 
 /* Wide Mobile = 480px */
@@ -3528,6 +3531,9 @@ font-size: 24px;
 	.slogun_slide{
 		display: none;
 	}
+	.text_search{
+		display: none;
+	}
 }
 
 /* Small Device = 320px */
@@ -3578,6 +3584,9 @@ font-size: 24px;
 		font-size: 24px;
 	}	
 	.slogun_slide{
+		display: none;
+	}
+	.text_search{
 		display: none;
 	}
 }
