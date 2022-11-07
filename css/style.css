@@ -3264,6 +3264,9 @@ font-size: 24px;
 	.over_hid {
 		overflow: hidden;
 	}
+	.slogun_slide{
+		display: none;
+	}
 }
 
 /* Wide Mobile = 480px */
@@ -3523,6 +3526,9 @@ font-size: 24px;
 	}
 	.over_hid {
 		overflow: hidden;
+	}
+	.slogun_slide{
+		display: none;
 	}
 }
 
