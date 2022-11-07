@@ -474,7 +474,6 @@ ol {
 
 .header__menu {
 	padding: 24px 0;
-	width: 1150px;
 }
 
 .header__menu ul li {
@@ -3267,6 +3266,9 @@ font-size: 24px;
 	.slogun_slide{
 		display: none;
 	}
+	.text_search{
+		display: none;
+	}
 }
 
 /* Wide Mobile = 480px */
@@ -3530,6 +3532,9 @@ font-size: 24px;
 	.slogun_slide{
 		display: none;
 	}
+	.text_search{
+		display: none;
+	}
 }
 
 /* Small Device = 320px */
@@ -3580,6 +3585,9 @@ font-size: 24px;
 		font-size: 24px;
 	}	
 	.slogun_slide{
+		display: none;
+	}
+	.text_search{
 		display: none;
 	}
 }
