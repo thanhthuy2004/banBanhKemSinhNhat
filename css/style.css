@@ -2878,7 +2878,39 @@ ol {
 #about li{
 	font-size: 14px;
 }
-
+.cake-footer{
+	margin-top: 50px;
+	line-height: 30px;
+}
+.fontsize-14{
+	font-size: 14px;
+}
+@-webkit-keyframes my {
+	0% { color: #F8CD0A; }
+	50% { color: #ff96b7; }
+	100% { color: #d8310b; }
+	}
+	@-moz-keyframes my {
+	0% { color: #F8CD0A; }
+	50% { color: #ff96b7; }
+	100% { color: #d8310b; }
+	}
+	@-o-keyframes my {
+	0% { color: #F8CD0A; }
+	50% { color: #ff96b7; }
+	100% { color: #d8310b; }
+	}
+	@keyframes my {
+	0% { color: #F8CD0A; }
+	50% { color: #ff96b7; }
+	100% { color: #d8310b; }
+	}
+	.text-animation {
+	-webkit-animation: my 700ms infinite;
+	-moz-animation: my 700ms infinite;
+	-o-animation: my 700ms infinite;
+	animation: my 700ms infinite;
+	}
 /*---------------------
   Contact
 -----------------------*/
