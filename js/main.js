@@ -9,10 +9,13 @@
 /*Read more*/
 function myFunction() {
     var x = document.getElementById('bld1');
+    var btnrm = document.getElementById('readmore');
     if (x.style.display === 'block') {
         x.style.display = 'none';
+        btnrm.innerText = "Xem thêm"
     } else {
         x.style.display = 'block';
+        btnrm.innerText = "Thu gọn lại"
     }
 }
 'use strict';
