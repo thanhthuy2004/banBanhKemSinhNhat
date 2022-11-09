@@ -206,6 +206,11 @@ ol {
 	background-color: #ff96b7;
 	color: #fff;
 }
+.btn-rm{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
 /* Preloder */
 
 #preloder {
