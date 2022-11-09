@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<!-- Icon Font Stylesheet -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+	<!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+	<!-- boostrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- admin -->
+    <link rel="stylesheet" href="css/admin.css">
+	
+	<!-- index css -->
+	<link rel="stylesheet" href="css/style.css" >
+
+	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="icon/favicon-32x32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="icon/favicon-32x32.png">
+	<!-- <link href="img/favicon.ico" rel="icon"> -->
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Dmitry Volkov">
+	<title>Admin | Shop Bánh Kem</title>
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header__content">
+            <!-- header logo -->
+            <a href="index.html" class="header__logo">
+				<img src="img/logo.svg" alt="">
+			</a>
+            <!-- end header logo -->
+
+            <!-- header menu btn -->
+            <button class="header__btn" type="button">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+            <!-- end header menu btn -->
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- sidebar -->
+    <div class="sidebar pe-4 pb-3">
+		<nav class="navbar bg-pink navbar-dark">
+			<a href="index.html" class="navbar-brand mx-4 mb-3">
+				<h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>DarkPan</h3>
+			</a>
+			<div class="d-flex align-items-center ms-4 mb-4">
+				<div class="position-relative">
+					<i class="fa fa-user icon__user"></i>
+					<div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
+				</div>
+				<div class="ms-3">
+					<h6 class="mb-0">Jhon Doe</h6>
+					<span>Admin</span>
+				</div>
+			</div>
+			<div class="navbar-nav w-100">
+				<a href="index.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+				
+				<a href="widget.html" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Widgets</a>
+				<a href="form.html" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a>
+				<a href="table.html" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a>
+				<div class="nav-item dropdown">
+					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Pages</a>
+					<div class="dropdown-menu bg-transparent border-0">
+						<a href="./signin.html" class="dropdown-item">Đăng nhập</a>
+						<a href="./signup.html" class="dropdown-item">Đăng kí</a>
+						<a href="./add-product.html" class="dropdown-item">Thêm Sản Phẩm</a>
+						<a href="./add-blog.html" class="dropdown-item">Thêm blog</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+    <!-- end sidebar -->
+
+    <!-- main content -->
+    <main class="main bg-pink">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- main title -->
+                <div class="col-12">
+                    <div class="main__title">
+                        <h2>Add new item</h2>
+                    </div>
+                </div>
+                <!-- end main title -->
+
+                <!-- form -->
+                <div class="col-12">
+                    <form action="#" class="form">
+                        <div class="row row--form">
+                            <div class="col-12 col-md-5 form__cover">
+                                <div class="row row--form">
+                                    <div class="col-12 col-sm-6 col-md-12">
+                                        <div class="form__img">
+                                            <label for="form__img-upload">Upload cover (270 x 400)</label>
+                                            <input id="form__img-upload" name="form__img-upload" type="file" accept=".png, .jpg, .jpeg">
+                                            <img id="form__img" src="#" alt=" ">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-7 form__content">
+                                <div class="row row--form">
+                                    <div class="col-12">
+                                        <input type="text" class="form__input" placeholder="Title">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <textarea id="text" name="text" class="form__textarea" placeholder="Description"></textarea>
+                                    </div>
+
+                                    <div class="col-12 col-sm-6 col-lg-3">
+                                        <input type="text" class="form__input" placeholder="Release year">
+                                    </div>
+
+                                    <div class="col-12 col-sm-6 col-lg-3">
+                                        <input type="text" class="form__input" placeholder="Running timed in minutes">
+                                    </div>
+
+                                
+
+                                    <div class="col-12 col-sm-6 col-lg-3">
+                                        <input type="text" class="form__input" placeholder="Age">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="form__gallery">
+                                            <label id="gallery1" for="form__gallery-upload">Upload photos</label>
+                                            <input data-name="#gallery1" id="form__gallery-upload" name="gallery" class="form__gallery-upload" type="file" accept=".png, .jpg, .jpeg" multiple>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <ul class="form__radio">
+                                    <li>
+                                        <span>Item type:</span>
+                                    </li>
+                                    <li>
+                                        <input id="type1" type="radio" name="type" checked="">
+                                        <label for="type1">Movie</label>
+                                    </li>
+                                    <li>
+                                        <input id="type2" type="radio" name="type">
+                                        <label for="type2">TV Series</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row row--form">
+                                    <div class="col-12">
+                                        <div class="form__video">
+                                            <label id="movie1" for="form__video-upload">Upload video</label>
+                                            <input data-name="#movie1" id="form__video-upload" name="movie" class="form__video-upload" type="file" accept="video/mp4,video/x-m4v,video/*">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <input type="text" class="form__input" placeholder="Or add a link">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button type="button" class="form__btn">publish</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- end form -->
+            </div>
+        </div>
+    </main>
+    <!-- end main content -->
+
+    <!-- JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/admin.js"></script>
+
+	<!-- ================ -->
+	 <!-- JavaScript Libraries -->
+	 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+	 <script src="lib/chart/chart.min.js"></script>
+	 <script src="lib/easing/easing.min.js"></script>
+	 <script src="lib/waypoints/waypoints.min.js"></script>
+	 <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+	 <script src="lib/tempusdominus/js/moment.min.js"></script>
+	 <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+	 <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+ 
+	 <!-- Template Javascript -->
+	 <script src="js/main.js"></script>
+</body>
+
+</html>
