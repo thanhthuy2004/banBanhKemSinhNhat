@@ -1449,6 +1449,9 @@ ul {
 .form__textarea-sp:focus{
     border-color: #ff96b7;
 }
+.text-pink{
+    color: #ff96b7;
+}
 
 
 .form__btn {
