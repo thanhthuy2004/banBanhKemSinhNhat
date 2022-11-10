@@ -3023,3 +3023,8 @@ ul {
         display: none !important;
     }
 }
+
+/* set background */
+.bg-white{
+    background-color: #fff;
+}
