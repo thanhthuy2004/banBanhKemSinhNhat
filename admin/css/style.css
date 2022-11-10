@@ -306,6 +306,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 /* form signin signup */
+.title-sg{
+    margin-left: 25%;
+    margin-bottom: 10%;
+   display: block;
+    font-size: 30px;
+    font-weight: bolder;
+}
 
 .form-control{
     background-color: #ffffff;
