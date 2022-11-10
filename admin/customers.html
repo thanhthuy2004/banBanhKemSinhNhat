@@ -76,10 +76,10 @@
 			</div>
 		</div>
 		<div class="navbar-nav w-100">
-			<a href="admin-web.html" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-			<a href="./list-products.html" class="nav-item nav-link "><i class="fa fa-th me-2"></i>DS Sản Phẩm</a>
-			<a href="./customers.html" class="nav-item nav-link active"><i class="fa fa-th me-2"></i>DS Khách Hàng</a>
-            <a href="./list-blogs.html" class="nav-item nav-link"><i class="fa fa-th me-2"></i>DS Blog</a>
+			<a href="admin-web.html" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>Tổng quát</a>
+			<a href="./list-products.html" class="nav-item nav-link"><i class="fa fa-th me-2"></i>DS Sản Phẩm</a>
+			<a href="./customers.html" class="nav-item nav-link"><i class="fa fa-th me-2"></i>DS Khách Hàng</a>
+			<a href="./list-blogs.html" class="nav-item nav-link active"><i class="fa fa-th me-2"></i>DS Blog</a>
 			<a href="./add-product.html" class="nav-item nav-link"><i class="fa fa-birthday-cake me-2"></i>Thêm Sản Phẩm</a>
 			<a href="./add-blog.html" class="nav-item nav-link"><i class="fa fa-blog me-2"></i>Thêm blog</a>
 			<!--  -->
@@ -121,7 +121,7 @@
                             <form action="#" class="main__title-form">
                                 <input type="text" placeholder="Tìm kiếm..">
                                 <button type="button">
-									<i class="fa fa-search"></i>
+									<i class="icon ion-ios-search"></i>
 								</button>
                             </form>
                             <!-- end search -->
@@ -136,61 +136,22 @@
                         <table class="main__table">
                             <thead>
                                 <tr>
-                                    <th>STT</th>
+                                    <th>Mã khách hàng</th>
                                     <th>Tên khách hàng</th>
                                     <th>Địa chỉ</th>
                                     <th>SĐT</th>
+                                    <th>Username</th>
+                                    <th>Password</th>
                                     <th>Trạng thái</th>
                                     <th>Ngày đăng ký</th>
-                                    <th>Tùy chọn</th>
+                                    <th>ACTIONS</th>
                                 </tr>
                             </thead>
 
                             <tbody>
                                 <tr>
                                     <td>
-                                        <div class="main__table-text">1</div>
-                                    </td> 
-                                    <td>
-                                        <div class="main__user">
-                                            <div class="main__avatar">
-                                                <img src="img/user.svg" alt="">
-                                            </div>
-                                            <div class="main__meta">
-                                                <h3>Nguyễn Văn An</h3>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="main__table-text">TPHCM</div>
-                                    </td>
-                                    <td>
-                                        <div class="main__table-text">0989873282</div>
-                                    </td>
-                                    
-                                    <td>
-                                        <div class="main__table-text main__table-text--green">Đã phê duyệt</div>
-                                    </td>
-                                    <td>
-                                        <div class="main__table-text">24/10/2021</div>
-                                    </td>
-                                    <td>
-                                        <div class="main__table-btns">
-                                            <a href="#modal-status" class="main__table-btn main__table-btn--banned open-modal">
-                                                <i class="icon ion-ios-lock"></i>
-                                            </a>
-                                            <a href="edit-user.html" class="main__table-btn main__table-btn--edit">
-                                                <i class="icon ion-ios-create"></i>
-                                            </a>
-                                            <a href="#modal-delete" class="main__table-btn main__table-btn--delete open-modal">
-                                                <i class="icon ion-ios-trash"></i>
-                                            </a>
-                                        </div>
-                                </td>
-                                </tr>
-                                <tr> 
-                                    <td>
-                                        <div class="main__table-text">2</div>
+                                        <div class="main__table-text">KH01</div>
                                     </td>
                                     <td>
                                         <div class="main__user">
@@ -208,7 +169,12 @@
                                     <td>
                                         <div class="main__table-text">0989873282</div>
                                     </td>
-                                    
+                                    <td>
+                                        <div class="main__table-text">annguyen3</div>
+                                    </td>
+                                    <td>
+                                        <div class="main__table-text">123456</div>
+                                    </td>
                                     <td>
                                         <div class="main__table-text main__table-text--green">Đã phê duyệt</div>
                                     </td>
@@ -221,7 +187,7 @@
                                                 <i class="fa fa-lock"></i>
                                             </a>
                                             <a href="edit-user.html" class="main__table-btn main__table-btn--edit">
-                                                <i class="fa fa-edit"></i>
+                                                <i class="fa fa-eye"></i>
                                             </a>
                                             <a href="#modal-delete" class="main__table-btn main__table-btn--delete open-modal">
                                                 <i class="fa fa-trash"></i>
@@ -267,20 +233,25 @@
                                                 <i class="fa fa-lock"></i>
                                             </a>
                                             <a href="edit-user.html" class="main__table-btn main__table-btn--edit">
-                                                <i class="fa fa-edit"></i>
+                                                <i class="fa fa-eye"></i>
                                             </a>
                                             <a href="#modal-delete" class="main__table-btn main__table-btn--delete open-modal">
                                                 <i class="fa fa-trash"></i>
                                             </a>
                                         </div>
                                 </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="main__table-text">KH03</div>
+                                    </td>
                                     <td>
                                         <div class="main__user">
                                             <div class="main__avatar">
                                                 <img src="img/user.svg" alt="">
                                             </div>
                                             <div class="main__meta">
-                                                <h3>Nguyễn Văn An</h3>
+                                                <h3>Nguyễn Văn Khang</h3>
                                             </div>
                                         </div>
                                     </td>
@@ -308,7 +279,7 @@
                                                     <i class="fa fa-lock"></i>
                                                 </a>
                                                 <a href="edit-user.html" class="main__table-btn main__table-btn--edit">
-                                                    <i class="fa fa-edit"></i>
+                                                    <i class="fa fa-eye"></i>
                                                 </a>
                                                 <a href="#modal-delete" class="main__table-btn main__table-btn--delete open-modal">
                                                     <i class="fa fa-trash"></i>
@@ -316,26 +287,6 @@
                                             </div>
                                     </td>
                                     
-                                    <td>
-                                        <div class="main__table-text main__table-text--green">Đã phê duyệt</div>
-                                    </td>
-                                    <td>
-                                        <div class="main__table-text">24/10/2021</div>
-                                    </td>
-                                    <td>
-                                        <div class="main__table-btns">
-                                            <a href="#modal-status" class="main__table-btn main__table-btn--banned open-modal">
-                                                <i class="icon ion-ios-lock"></i>
-                                            </a>
-                                            <a href="edit-user.html" class="main__table-btn main__table-btn--edit">
-                                                <i class="icon ion-ios-create"></i>
-                                            </a>
-                                            <a href="#modal-delete" class="main__table-btn main__table-btn--delete open-modal">
-                                                <i class="icon ion-ios-trash"></i>
-                                            </a>
-                                        </div>
-                                </td>
-                                
                                 </tr>
                             </tbody>
                         </table>
@@ -350,14 +301,14 @@
 
                         <ul class="paginator">
                             <li class="paginator__item paginator__item--prev">
-                                <a href="#"><i class="fa fa-chevron-left"></i></a>
+                                <a href="#"><i class="icon ion-ios-arrow-back"></i></a>
                             </li>
                             <li class="paginator__item"><a href="#">1</a></li>
                             <li class="paginator__item paginator__item--active"><a href="#">2</a></li>
                             <li class="paginator__item"><a href="#">3</a></li>
                             <li class="paginator__item"><a href="#">4</a></li>
                             <li class="paginator__item paginator__item--next">
-                                <a href="#"><i class="fa fa-chevron-right"></i></a>
+                                <a href="#"><i class="icon ion-ios-arrow-forward"></i></a>
                             </li>
                         </ul>
                     </div>
