@@ -619,7 +619,10 @@ ol {
 .humberger__open {
 	display: none;
 }
-
+.cursor{
+	cursor: pointer;
+	color: #ff96b7;
+}
 /*---------------------
   Hero
 -----------------------*/
