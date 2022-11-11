@@ -779,6 +779,11 @@ ol {
 	margin-right: 20px;
 }
 
+.hero__search__phone__icon:hover {
+	opacity: .7;
+	cursor: pointer;
+}
+
 .hero__search__phone__text {
 	overflow: hidden;
 }
