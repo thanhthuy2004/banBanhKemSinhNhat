@@ -316,6 +316,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 .form-control{
     background-color: #ffffff;
+    border: 2px solid #ff96b7;
 }
 .form-control:focus{
     background-color: #fdf3f4;

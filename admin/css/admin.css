@@ -222,9 +222,9 @@ ul {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #1a191f;
+    background-color: #ff96b7;
     z-index: 100;
-    border-bottom: 1px solid #222028;
+    border-bottom: 1px solid #ff96b7;
 }
 
 .header__content {
@@ -244,7 +244,6 @@ ul {
     justify-content: flex-start;
     align-items: center;
     height: 70px;
-    background-color: #1a191f;
     width: auto;
 }
 
@@ -335,7 +334,6 @@ ul {
     width: 280px;
     transform: translateX(-100%);
     transition: transform 0.4s ease;
-    border-right: 1px solid #222028;
 }
 
 .sidebar__logo {
