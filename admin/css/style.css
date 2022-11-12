@@ -336,3 +336,9 @@ background-color: #ff96b7;
     font-size: 40px;
     color: #ff96b7;
 }
+/* check password signin */
+#insertTextHere{
+    color: red;
+   font-style: italic;
+   margin-bottom: 20px;
+}
