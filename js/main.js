@@ -1,4 +1,4 @@
-/*  ---------------------------------------------------
+/*  ---------------------------------------------------mix
     Template Name: Ogani
     Description:  Ogani eCommerce  HTML Template
     Author: Colorlib
